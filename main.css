@@ -1,0 +1,75 @@
+:root {
+  --transition: all 0.6s linear;
+  --backgroundColor: aqua;
+}
+
+* {
+  background: linear-gradient(to right, black, black, white);
+}
+
+section {
+  color: #fff;
+  margin-left: 400px;
+  height: 100%;
+  width: 500px;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 5px solid var(--backgroundColor);
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  background: none;
+}
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+label {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#txtKrediTutari{
+  color: #fff;
+}
+input {
+  margin-top: 10px;
+  height: 40px;
+  border: 2px solid var(--backgroundColor);
+  transition: var(--transition);
+}
+
+select {
+  height: 40px;
+  border: 2px solid var(--backgroundColor);
+  transition: var(--transition);
+  color: #fff;
+}
+
+#btn {
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+option{
+  background-color: var(--backgroundColor);
+  color: black;
+}
+
+#tutartxt{
+  background: none;
+  font-size: 20px;
+}
+
+#vadetxt{
+  background: none;
+  font-size: 20px;
+}
